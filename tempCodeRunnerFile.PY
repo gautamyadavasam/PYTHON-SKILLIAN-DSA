@@ -1,4 +1,7 @@
-i= 10
-# while i >=1:
-#     print(i)
-#     i-=1
+
+n = int(input("enter a number:- "))
+i = 0
+while i <= n:
+    if i % 2 == 0:
+        print(i)
+    i += 1   # moved outside the if block

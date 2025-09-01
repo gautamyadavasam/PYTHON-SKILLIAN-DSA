@@ -1,13 +1,13 @@
-marks =[60.7,70.3,80.2,90.4,100.6]
-print(len(marks))
-print(marks[-3:-1])
-marks.append(45.6)
-marks.sort(reverse= True)
-marks.count(90.4)
-marks.remove(90.4)
+# marks =[60.7,70.3,80.2,90.4,100.6]
+# print(len(marks))
+# print(marks[-3:-1])
+# marks.append(45.6)
+# marks.sort(reverse= True)
+# marks.count(90.4)
+# marks.remove(90.4)
 
 
-print(marks)
+# print(marks)
 #list practice questions
 #question:- WAP to ask the user to enter theire name of theire favorite movie & Store them in a list 
 # list=[]
@@ -24,3 +24,14 @@ print(marks)
 #     print("palindrome")
 # else:
 #     print("not Plaindrome")
+
+
+
+## check if the list provided by the user is palindrome or not, if it is a palindrome then print "Yes" else print "No"
+n = int(input("check the palindrome:- "))
+copy_list =n.copy()
+if (copy_list==n):
+    print("palindrome")
+else:
+    print("not palindrome")
+    

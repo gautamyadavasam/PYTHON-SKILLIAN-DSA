@@ -94,3 +94,41 @@
 #     print(data)
     
 
+# Create a file and write "Hello, World!" in it. Then read and print it.
+# with open("file.txt","w+")as l:
+#     l.write("hello World")
+# with open("file.txt","r")as l:
+#     data=l.read()
+#     print(data)
+
+
+# Write 5 student names in a file (one per line). Read and print each name.
+# with open ("file.txt","a+")as f:
+#     f.write("\ngautamyadav\nsuraj\nsumit")
+#     f.seek(0)
+#     data=f.read()
+#     print(data)
+# Count how many characters are in a file.
+# count= 0 
+# with open("file.txt","r")as f:
+#     data= f.read()
+#     for val in data:
+#         print(val)
+#         count+=1
+# print(count)
+# # there is a anoter way to do this and hat is the coreect way to do this  
+# with open("file.txt","r")as f:
+#     data=f.read()
+#     print(len(data) )
+# # Count how many lines are in a file.
+# with open("file.txt","r")as f:
+#     data=f.readline()
+#     print(len(data))
+# Count how many words are in a file.
+
+with open("file.txt","r")as f:
+    data=f.read()
+    print(data)
+    num=data.split()
+    print(len(num))
+        

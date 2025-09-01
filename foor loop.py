@@ -203,7 +203,18 @@ Let me know if you want me to rewrite this code in an easier or shorter way!
 
 
 #👉 For example, "I love python programming". Write a loop that counts how many spaces " " are in the sentence.
-str="i Love python Programing"
+# n = 5
+# for row in range(1, n+1,1):        # outer loop → rows
+#     for col in range(1, row+1,1):  # inner loop → stars per row
+#         print("*", end="")       # print stars side by side
+#     print()                      # move to next line after row finishes
 
 
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJQtx1l1OoJUGu9ycsjHJ6qipZJDlcLWsCjn/BZiIXLP yadavgautam932@gmail.com
+#print a rectangale 
+# col=6
+# row=4
+# for el in range(1,row+1,1):
+#     temp= col
+#     for temp in range(1,temp+1, 1):
+#         print("*", end="")
+#     print()
