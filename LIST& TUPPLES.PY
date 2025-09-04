@@ -35,3 +35,5 @@ if (copy_list==n):
 else:
     print("not palindrome")
     
+    
+#what is 2d list 

@@ -26,6 +26,9 @@ class Book:
         self.author=author
         self.year= year
 
-
-s1=Book("harry Potter","J.K.Rowling","1997")
-print("book:",s1.title,"|", "Author:",s1.author,"year",s1.year)
+def details(self):
+    if self.year<=2000:
+        self.year=="old"
+    else:
+        print("new")
+        print(f"Book: {self.title} | Author: {self.author} | Year: {self.year}")
